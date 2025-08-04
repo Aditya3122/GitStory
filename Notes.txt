@@ -13,16 +13,18 @@ command: Git init
 
 Note: At first all the files are untracked
 
-if we want track files
+if we want add files in stagining area 
 command: git add filename
 
-if we want commit files
+if we want commit those files in the git repository
 command: git commit -m "Commit Message" (-m Message)
 
 if we want to check commit details
 command: git log
 
-To add  all the files in a directory
+To add  all the files in a statging directory
 command: git add .
          
 
+
+gsuigus

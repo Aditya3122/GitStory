@@ -25,6 +25,8 @@ command: git log
 To add  all the files in a statging directory
 command: git add .
          
+use q key to exit 
 
+To check diffrences between the last commited version and the current saved version of the file
+command: git diff fileName
 
-gsuigus

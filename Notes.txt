@@ -1,0 +1,28 @@
+If we have to chck all th items in a folder
+command: ls -all
+
+delete a file
+command: rm filename
+
+delete a directory
+command: rmdir dirname
+
+
+we have to initialize Git
+command: Git init
+
+Note: At first all the files are untracked
+
+if we want track files
+command: git add filename
+
+if we want commit files
+command: git commit -m "Commit Message" (-m Message)
+
+if we want to check commit details
+command: git log
+
+To add or commit all the files in a directory
+command: git add .
+         git commit -m "checked in" .
+

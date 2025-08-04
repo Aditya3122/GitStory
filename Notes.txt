@@ -24,9 +24,28 @@ command: git log
 
 To add  all the files in a statging directory
 command: git add .
+
+To remove all the files from previous stage or stagining area
+command: git rm --cached -r .
          
 use q key to exit 
 
 To check diffrences between the last commited version and the current saved version of the file
 command: git diff fileName
+
+to revert a file to commited version of repository
+command: git checkout fileName
+
+to add local repository to Git hub or any remote repository
+command: git remote add origin
+--origin is the name of the remote repository
+
+to push files of local repository to Git hub or any remote repository
+command: git push -u origin master
+-- master is the branch name of the remote repository
+
+if we want create file that doesn't go to push in remote repository
+command: 
+1. touch .gitignore
+2. then mention the file name inside .gitignore
 

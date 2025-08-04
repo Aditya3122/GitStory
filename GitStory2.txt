@@ -1,1 +1,1 @@
-git story 2
+It is Chapter 2 of Git Story exp

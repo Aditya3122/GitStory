@@ -22,7 +22,7 @@ command: git commit -m "Commit Message" (-m Message)
 if we want to check commit details
 command: git log
 
-To add or commit all the files in a directory
+To add  all the files in a directory
 command: git add .
-         git commit -m "checked in" .
+         
 
